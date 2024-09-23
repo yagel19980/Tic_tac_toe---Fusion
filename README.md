@@ -24,10 +24,10 @@ Two clients connect to the server.
 The server assigns them 'X' or 'O' and initializes a new game.
 
 Player Move:
-A player makes a move by selecting a cell on the game board (or via Postman, sending a request to mark a specific cell).
+A player makes a move by selecting a cell on the game board.
 The move is sent to the server, which updates the game state and broadcasts the updated board to both players.
-Checking Win Condition:
 
+Checking Win Condition:
 After each move, the server checks the game board for three consecutive 'X' or 'O' symbols horizontally, vertically, or diagonally.
 If a player wins, or if there’s a draw, the server broadcasts the result.
 
