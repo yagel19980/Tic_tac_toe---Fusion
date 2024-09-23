@@ -1,7 +1,7 @@
 # Tic_tac_toe---Fusion
 Tech Stack
 Backend: Flask (Python) with WebSockets to handle real-time communication between the players.
-Frontend: Pure HTML, CSS, and JavaScript, or alternatively, HTTP requests with Postman (for the minimalist approach).
+Frontend: Pure HTML, CSS, and JavaScript.
 WebSocket Library: flask-socketio to manage the bi-directional communication.
 Game Logic: Handled on the server side, checking for win conditions, tracking game states, and sending updates to both clients in real time.
 
